@@ -2,32 +2,40 @@
 <html lang='ru'>
     <head>
         <meta charset='UTF-8'>
-        <link rel='stylesheet' href='style.css'>
         <title>Marathon2021</title>
+        <link rel='stylesheet' href='style.css'> 
     </head>
 
     <body>
         <header class='page-header'>
-            <div class='container'>
-                <a class='header-catalog'
-                href='page1'>Каталог</a> 
-                <a class='header-delivery'
-                href='page2'>Доставка и оплата</a>
-                <a class='header-reviews'
-                href='page3'>Отзывы</a>
+            <div class='header-top'>
+                <ul class='main-nav'>
+                <li><a class='header-catalog'
+                href='page1'>Каталог</a></li>
+
+                <li><a class='header-delivery'
+                href='page2'>Доставка и оплата</a></li>
+
+                <li><a class='header-reviews'
+                href='page3'>Отзывы</a></li>
+
                 <img src='img/logo.png' width='65' height='20' alt='Botanika'> 
-                <a class='header-offer'
-                href='page4'>Спецпредложения</a>
-                <a class='header-contacts'
-                href='page5'>Контакты</a>
-                <a class='header-order'
-                href='page6'>Корзина</a>
+
+                <li><a class='header-offer'
+                href='page4'>Спецпредложения</a></li>
+
+                <li><a class='header-contacts'
+                href='page5'>Контакты</a></li>
+
+                <li><a class='header-order'
+                href='page6'>Корзина</a></li>
+                </ul>
             </div>
         </header>
-
+    <main>
         <section class='designer-bouquets'>
-            <div class='container'><h1 class='heading'>Авторские букеты<br> <em>в Петербурге</em></h1>
-            <h3>Оригинальные свежие букеты<br> с доставкой по всему городу</h3>
+            <div class='container'><h1 class='heading'>Авторские букеты <i>в Петербурге</i></h1>
+            <h3>Оригинальные свежие букеты с доставкой по всему городу</h3>
             <a class='button' href='button'><img src='img/Rectangle 12svg.svg' width="285" height="80" alt="catalog">Смотреть каталог</a>
             <figure class='anna-tukhfatullina'>
             <img src='img/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash 1png.jpg' width='386' height='404' alt='pinktulips'>
@@ -37,20 +45,28 @@
             </figure>
         </section>
 
-        <section class='preferences'>
-            <div class='fast-delivery'><img src='img/Group 9svg.svg' width='82' height='52' alt='car'>Быстрая доставка<br>Можем собрать букет и<br> 
-                передать его в доставку всего за час.</div>
-            <div class='fresh-flowers'><img src='img/bouquet 1svg.svg' width="52" height="52" alt="bouquet">Всегда свежие цветы<br>
-                Тщательно следим за состоянием<br> цветов, а опытные флористы<br> отбирают для букетов каждый<br> цветок.</div>
-            <div class='send-photos'><img src='img/Groupphoto.svg' width="58,6" height="52" alt="photo">Отправляем фото цветов<br>Перед доставкой сделаем<br> фотографию букета и отправим<br> вам.</div>
+        <section class='features'>
+            <div class='feature-items'>
+            <ul>
+            <li class='fast-delivery'><img src='img/Group 9svg.svg' width='82' height='52' alt='car'><h2>Быстрая доставка</h2>
+                <p>Можем собрать букет и 
+                передать его в доставку всего за час.</p>
+                </li>
+            <li class='fresh-flowers'><img src='img/bouquet 1svg.svg' width="52" height="52" alt="bouquet"><h2>Всегда свежие цветы</h2>
+                <p>Тщательно следим за состоянием цветов, а опытные флористы<br> отбирают для букетов каждый цветок.</p>
+            </li>
+            <li class='send-photos'><img src='img/Groupphoto.svg' width="58,6" height="52" alt="photo"><h2>Отправляем фото цветов</h2>
+                <p>Перед доставкой сделаем фотографию букета и отправим вам.</p>
+            </li>
+            </ul>
         </section>
 
         <section class='popular-bouquets'>
-            <div class='container'><h1 class='heading'>Популярные букеты</h1>
+            <div class='container'><h2>Популярные букеты</h2>
                 <h3>Букет «Нежность»</h3>
                 <p>Элегантный букет, который станет отличным<br> подарком на день рождения или юбилей.</p>
                 <p>30 × 40 см</p>
-                <p>3600 руб.</p>
+                <b>3600 руб.</b>
                 <a class='button' href='order'>
     
                     <img src='img/Rectangle 16svg.svg' width="285" height="80" alt="order">Заказать</a>
@@ -80,7 +96,7 @@
             </section>
 
             <section class='steps'>
-                <div class='container'><h1 class='heading'>4 шага к идеальному букету</h1>
+                <div class='container'><h2>4 шага к идеальному букету</h2>
                     <div class='order'><a href='page17'><img src='img/Groupcomp.svg' width="66,08" height="52" alt='order-item'><br>Заказ<br></a>
                         Выберите понравившийся букет<br> из каталога и оформите заказ
                     </div>
@@ -98,7 +114,7 @@
             </section>
 
             <section class='news'>
-                <div class='container'><h1 class='heading'>Следите за нашими<br> новостями</h1>
+                <div class='container'><h2>Следите за нашими новостями</h2>
                     <p>Подписывайтесь на наши<br> соцсети и узнавайте<br> о новинках и акциях первым.</p>
                     <a href='page21'><img src='img/Соцсети.png' width="96,76" height="20" alt='social-networks'></a>
              </div>
@@ -110,27 +126,31 @@
                 <img src='img/demi-he-hPcxvCecdPI-unsplash 1jpg.jpg' width="387" height="460" alt="demi-bouquet"></div>
             </section>
 
-            <secton class='feedback'>
-                <div class='container'><h1 class='heading'>Отзывы</h1></div>
-                <div class='marina'><p>Всё очень понравилось! Быстрое<br> оформление заказа, выбор<br>удобного времени доставки. 
-                    Всем<br> большое спасибо!</p>
-                <p>Марина</p>
-            </div>
-            <div class='tatiana'><p>Внимательные флористы,<br> вежливые. Магазин находится<br> прям рядом с метро. Букет очень<br>
+            <secton class='reviews'>
+                <h2>Отзывы</h2>
+                <blockquote class='review-marina'>
+                <p>Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. 
+                    Всем большое спасибо!</p>
+                <cite>Марина</cite>
+                </blockquote>
+
+                <blockquote class='review-tatiana'>
+                <p>Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень
                  понравился, буду ещё заказывать!</p>
-                 <p>Татьяна</p>
-                 </div>
-             <div class='olga'><p>Выбор букетов на любой вкус<br>
-                и цену. Бывают хорошие скидки,<br>а флористы всегда помогут и точно<br> соберут красивый букет!</p>
-                <p>Ольга</p>
-             </div>    
-            </div>
+                 <cite>Татьяна</cite>
+                </blockquote>
+
+             <blockquote class='review-olga'>
+                 <p>Выбор букетов на любой вкус 
+                и цену. Бывают хорошие скидки,а флористы всегда помогут и точно соберут красивый букет!</p>
+                <cite>Ольга</cite>
+             </blockquote>    
             </secton>
 
             <section class='map'>
-                <div class='contacts'><h1>Мы ждем вас</h1>
+                <div class='contacts'><h2>Мы ждем вас</h2>
                 <p>Приходите к нам:</p>
-                <p>Санкт-Петербург,<br>ул. Большая Конюшенная, 19</p>
+                <p>Санкт-Петербург,ул. Большая Конюшенная, 19</p>
                 <p>Режим работы:</p>
                 <p>Пн-Вск, с 9-00 до 20-00</p>
                 <p>Позвоните нам:</p>
@@ -138,12 +158,11 @@
                 <p>Напишите нам:</p>
                 <p><a href='email'>info@botanika.ru</a></p>
                 </div>
-        
                 <img src='img/Rectangle 78.png' width="386" height="520" alt='contacts'>
                 <img src='img/mapjpg.jpg' width="1440" height="644,1" alt='map'>
 
             </section>
-
+       </main> 
             <footer class='page-footer'>
                <div class='container'>
                    <img src='img/Лого.png' width="100,01" height="32,29" alt='botanika-logotip'>
